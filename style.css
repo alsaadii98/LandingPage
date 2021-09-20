@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.banner {
+  background-color: rgb(238, 238, 238);
+  height: 80vh;
+  min-height: 600px;
+  background-image: url("https://i.ibb.co/HNvHSyV/image-header.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  font-size: 20px;
+  color: white;
+  align-items: center;
+}
+.nav a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.contact {
+  color: rgb(90, 90, 90);
+  background-color: white;
+  padding: 8px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.25s all ease-in-out;
+}
+.contact:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  flex-grow: 1;
+  color: white;
+  font-weight: bold;
+}
+.arrow {
+  margin-top: 60px;
+}
+.sectin1 {
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: space-between;
+}
+.sectin2 {
+  display: flex;
+  flex-direction: row-reverse;
+  height: auto;
+  width: 100%;
+  justify-content: space-between;
+}
+.sectin3 {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.sectin1 img,
+.sectin2 img,
+.sectin3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sectin1 .left,
+.sectin2 .left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectin3 .left {
+  width: 50%;
+}
+.sectin1 .right,
+.sectin2 .right,
+.sectin3 .right {
+  width: 50%;
+}
+
+.sectin1 .textcontainer {
+  width: 70%;
+  font-size: 15px;
+}
+.sectin2 .textcontainer {
+  width: 70%;
+  font-size: 15px;
+}
+.left h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.left p {
+  color: #848391;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 16px;
+}
+.sectin1 .learnMoreBtn {
+  background-color: #ffd100;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  transition: 0.25s all ease-in-out;
+}
+.sectin2 .learnMoreBtn {
+  background-color: #ff7063;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  transition: 0.25s all ease-in-out;
+}
+.sectin1 .learnMoreBtn:hover {
+  background-color: #ffe260;
+  color: rgb(0, 0, 0);
+}
+.sectin2 .learnMoreBtn:hover {
+  background-color: #ff8f84;
+  color: rgb(0, 0, 0);
+}
+.left .right {
+  flex: 1;
+}
+.clients {
+  display: flex;
+  justify-content: space-between;
+}
+.clients .client {
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  align-items: center;
+}
+.client .clientImg {
+  margin-bottom: 16px;
+}
+
+.client p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #848391;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.client .details {
+  text-align: center;
+}
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffbf8;
+  padding: 80px;
+}
+.testimonials h1 {
+  color: #848391;
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+.clientImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.clientImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.details h4 {
+  color: #848391;
+  margin-top: 8px;
+}
+.pics {
+  display: flex;
+}
+.pic img {
+  flex: 0.25;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.footer {
+  background-color: #90d4c5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer .logo {
+  color: #36665c;
+}
+.footer-nav {
+  color: #315a51;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.footer-nav span {
+  padding: 8px;
+  cursor: pointer;
+  transition: 0.25s all ease-in-out;
+}
+.footer-nav span:hover {
+  color: white;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.icons img {
+  margin: 10px;
+  cursor: pointer;
+}
